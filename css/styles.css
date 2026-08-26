@@ -31,3 +31,14 @@
         border-bottom: 1px solid #aaa;
         text-transform: uppercase;
        }
+       nav a {
+        display: inline-block;
+        min-width: 9rem;
+        padding: 0.5rem;
+        border: 1px solid #aaa;
+        border-radius: 0.2rem;
+        text-align: center;
+        text-decoration: none;
+        color: #555;
+        background-color: white;
+       }
