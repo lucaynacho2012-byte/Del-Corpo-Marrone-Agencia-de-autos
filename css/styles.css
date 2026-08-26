@@ -42,3 +42,11 @@
         color: #555;
         background-color: white;
        }
+       #proximoauto img {
+    width: 600px;
+    display: block;
+    margin: auto;
+    padding: 1.5rem;
+     }
+     
+     
