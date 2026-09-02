@@ -88,28 +88,16 @@
            }
            /* CUADROS */
            #colegio {
-            background-color: red;
+            background-color: rgb(59, 59, 59);
+            color: #000;
            }
+           
            #alumno {
-            background-color: yellow;
+            background-color: rgb(59, 59, 59);
             color: black;
            }
-           #redes {
-            background-color: lightseagreen;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 15px;
-           }
-           /* ICONOS */
-           #redes img {
-            width: 50px;
-            height: 50px;
-            object-fit: contain;
-           }
 
-
-           #video {
+           #videoagencia {
             text-align: center;
         }
 
