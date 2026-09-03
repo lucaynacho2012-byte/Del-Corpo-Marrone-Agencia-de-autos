@@ -54,8 +54,8 @@
 
     }
      p {color: #8b8b8b;
-        font-size: 18px;
-        margin: 100px;
+        font-size: 25px;
+        margin: 20px;
          text-align: center;
          font-family:'Lucida Sans', 'Lucida Sans Regular'
         
@@ -70,14 +70,15 @@
 
 
          footer {
+            background-image: url(https://chatgpt.com/backend-api/estuary/content?id=file_000000004f18820e800b4c341e8a15f1&ts=496799&p=fs&cid=1&sig=333e4a7980e11f48f9d1c504a94f313d941fb503a5063a6863b8b14dc66a60a8&v=0);
             background-color: #000;
             color: white;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
             align-items: stretch;
-            gap: 10px;
-            padding: 10px;
+            gap: 3px;
+            padding: 3px;
            }
            #colegio,
            #alumno,
@@ -100,5 +101,10 @@
            #videoagencia {
             text-align: center;
         }
+
+     
+
+
+        
 
  
