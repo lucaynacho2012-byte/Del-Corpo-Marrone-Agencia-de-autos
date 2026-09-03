@@ -70,9 +70,7 @@
 
 
          footer {
-            background-image: url(https://chatgpt.com/backend-api/estuary/content?id=file_000000004f18820e800b4c341e8a15f1&ts=496799&p=fs&cid=1&sig=333e4a7980e11f48f9d1c504a94f313d941fb503a5063a6863b8b14dc66a60a8&v=0);
             background-color: #000;
-            color: white;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
@@ -81,14 +79,14 @@
             padding: 3px;
            }
            #colegio,
-           #alumno,
-           #redes {
+           #alumno {
             flex: 1;
             min-width: 250px;
             padding: 15px;
            }
            /* CUADROS */
            #colegio {
+            background-image: url(https://chatgpt.com/backend-api/estuary/content?id=file_000000004f18820e800b4c341e8a15f1&ts=496799&p=fs&cid=1&sig=333e4a7980e11f48f9d1c504a94f313d941fb503a5063a6863b8b14dc66a60a8&v=0);
             background-color: rgb(59, 59, 59);
             color: #000;
            }
