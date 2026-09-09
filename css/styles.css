@@ -118,3 +118,12 @@ p {color: #8b8b8b;
      #videoagencia {
       text-align: center;
   }
+
+#estadosunidos tr,#estadosunidos td,#estadosunidos th{
+    border: solid coral 3px;
+    border: collapse;
+    }
+    
+    #estadosunidos img{
+    width: 200px;
+    }
