@@ -1,108 +1,110 @@
-*{
-        box-sizing: border-box;
-        /*se ajusta al tamaño del contenedor*/
-    }
-
-    body {
-        margin: 0;
-        font-family: system-ui, sans-serif;
-        color: black;
-        background-color: white;
-    }
-
-    /*inicio del header*/
-    header {
-        background-color: #000;
-        background-image: url(https://st5.depositphotos.com/10491502/66653/i/450/depositphotos_666531608-stock-photo-carbon-fiber-material-texture-background.jpg);
-    }
-
-    #logo img {
-        width: 150px;
-    }
-
-    /*fin del header*/
-    nav {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        gap: 0.5rem;
-        padding: 0.5rem;
-        background-color: #2c2c2c;
-        border-bottom: 1px solid #000000;
-        text-transform: uppercase;
-       
-       }
-       nav a {
-        display: inline-block;
-        min-width: 9rem;
-        padding: 0.5rem;
-        border: 1px solid #000000;
-        border-radius: 0.2rem;
-        text-align: center;
-        text-decoration: none;
-        color: #8b8b8b;
-        background-color: rgb(0, 0, 0);
-       }
-       #proximoauto img {
-    width: 600px;
-    display: block;
-    margin: auto;
-    padding: 1.5rem;
-     }
-     Body{background-color: #000;
-
-    }
-     p {color: #8b8b8b;
-        font-size: 25px;
-        margin: 20px;
-         text-align: center;
-         font-family:'Lucida Sans', 'Lucida Sans Regular'
-        
-
-     }
-     #imgfrase img {
-        width: 600px;
-        display: block;
-        margin: auto;
-        padding: 1.5rem;
-         }
+**{
+  box-sizing: border-box;
+  /*se ajusta al tamaño del contenedor*/
+}
 
 
-         footer {
-            background-color: #000;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: stretch;
-            gap: 3px;
-            padding: 3px;
-           }
-           #colegio,
-           #alumno {
-            flex: 1;
-            min-width: 250px;
-            padding: 15px;
-           }
-           /* CUADROS */
-           #colegio {
-            background-image: url(https://chatgpt.com/backend-api/estuary/content?id=file_000000004f18820e800b4c341e8a15f1&ts=496799&p=fs&cid=1&sig=333e4a7980e11f48f9d1c504a94f313d941fb503a5063a6863b8b14dc66a60a8&v=0);
-            background-color: rgb(59, 59, 59);
-            color: #000;
-           }
-           
-           #alumno {
-            background-color: rgb(59, 59, 59);
-            color: black;
-           }
-
-           #videoagencia {
-            text-align: center;
-        }
-
-     
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
 
 
-        
+/*inicio del header*/
+header {
+  background-color: #000;
+  background-image: url(https://st5.depositphotos.com/10491502/66653/i/450/depositphotos_666531608-stock-photo-carbon-fiber-material-texture-background.jpg);
+}
 
+
+#logo img {
+  width: 150px;
+}
+
+
+/*fin del header*/
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background-color: #2c2c2c;
+  border-bottom: 1px solid #000000;
+  text-transform: uppercase;
+
+ }
+ nav a {
+  display: inline-block;
+  min-width: 9rem;
+  padding: 0.5rem;
+  border: 1px solid #000000;
+  border-radius: 0.2rem;
+  text-align: center;
+  text-decoration: none;
+  color: #8b8b8b;
+  background-color: rgb(0, 0, 0);
+ }
+ #proximoauto img {
+width: 600px;
+display: block;
+margin: auto;
+padding: 1.5rem;
+}
+Body{background-color: #000;
+
+
+}
+p {color: #8b8b8b;
+  font-size: 25px;
+  margin: 20px;
+   text-align: center;
+   font-family:'Lucida Sans', 'Lucida Sans Regular'
  
+
+
+}
+#imgfrase img {
+  width: 600px;
+  display: block;
+  margin: auto;
+  padding: 1.5rem;
+   }
+
+
+
+
+   footer {
+      background-color: #000;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: stretch;
+      gap: 3px;
+      padding: 3px;
+     }
+     #colegio,
+     #alumno {
+      flex: 1;
+      min-width: 250px;
+      padding: 15px;
+     }
+     /* CUADROS */
+     #colegio {
+      background-image: url(https://chatgpt.com/backend-api/estuary/content?id=file_000000004f18820e800b4c341e8a15f1&ts=496799&p=fs&cid=1&sig=333e4a7980e11f48f9d1c504a94f313d941fb503a5063a6863b8b14dc66a60a8&v=0);
+      background-color: rgb(59, 59, 59);
+      color: #000;
+     }
+    
+     #alumno {
+      background-color: rgb(59, 59, 59);
+      color: black;
+     }
+
+
+     #videoagencia {
+      text-align: center;
+  }
