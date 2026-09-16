@@ -122,6 +122,7 @@ p {color: #8b8b8b;
 #estadosunidos tr,#estadosunidos td,#estadosunidos th{
     border: solid coral 3px;
     border: collapse;
+    color: white;
     }
     
     #estadosunidos img{
