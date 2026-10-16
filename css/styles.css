@@ -1,40 +1,153 @@
-#alumno{
-  width: 33%;
-  background-color: rgb(126, 0, 0);
-  color: #aaa;
-  padding: 5px;
-}
-#alumno a{
-  color: #aaa;
-}
-#sociales{
-  width: 33%;
-  background-color: rgb(51, 51, 51);
-  padding: 5px;
-}
-#sociales img{
-  width: 50px;
-}
-
-
-
- #videoagencia {
+*{
+  box-sizing: border-box;
+  /*se ajusta al tamaño del contenedor*/
+ }
+ 
+ 
+ 
+ 
+ body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+ }
+ 
+ 
+ 
+ 
+ /*inicio del header*/
+ header {
+  background-color: #000;
+  background-image: url(https://st5.depositphotos.com/10491502/66653/i/450/depositphotos_666531608-stock-photo-carbon-fiber-material-texture-background.jpg);
+ }
+ 
+ 
+ 
+ 
+ #logo img {
+  width: 150px;
+ }
+ 
+ 
+ 
+ 
+ /*fin del header*/
+ nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background-color: #2c2c2c;
+  border-bottom: 1px solid #000000;
+  text-transform: uppercase;
+ 
+ 
+ }
+ nav a {
+  display: inline-block;
+  min-width: 9rem;
+  padding: 0.5rem;
+  border: 1px solid #000000;
+  border-radius: 0.2rem;
   text-align: center;
-}
-
-#estadosunidos tr,#estadosunidos td,#estadosunidos th{
-border: solid coral 3px;
-border: collapse;
-color: white;
-}
-
-#estadosunidos img{
-width: 200px;
-}
-
-#contenedor{
-width: 57%;
-float: right;
-
-
-}
+  text-decoration: none;
+  color: #8b8b8b;
+  background-color: rgb(0, 0, 0);
+ }
+ #proximoauto img {
+ width: 600px;
+ display: block;
+ margin: auto;
+ padding: 1.5rem;
+ }
+ Body{background-color: #000;
+ 
+ 
+ 
+ 
+ }
+ p {color: #8b8b8b;
+  font-size: 25px;
+  margin: 20px;
+   text-align: center;
+   font-family:'Lucida Sans', 'Lucida Sans Regular'
+ 
+ 
+ 
+ 
+ }
+ #imgfrase img {
+  width: 600px;
+  display: block;
+  margin: auto;
+  padding: 1.5rem;
+   }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   footer {
+      background-color: #000;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: stretch;
+      gap: 3px;
+      padding: 3px;
+     }
+     #colegio{
+      width: 33%;
+      background-color: rgb(51, 51, 51);
+      padding: 5px;
+    }
+    #colegio a{
+    color: #ffffff;
+    }
+  
+    #alumno{
+      width: 33%;
+      background-color: rgb(126, 0, 0);
+      color: #aaa;
+      padding: 5px;
+    }
+    #alumno a{
+      color: #aaa;
+    }
+    #sociales{
+      width: 33%;
+      background-color: rgb(51, 51, 51);
+      padding: 5px;
+    }
+    #sociales img{
+      width: 50px;
+    }
+ 
+ 
+ 
+ 
+ 
+ 
+     #videoagencia {
+      text-align: center;
+  }
+ 
+ 
+ #marcas tr,#marcas td,#marcas th{
+    border: solid coral 3px;
+    border: collapse;
+    color: white;
+    }
+   
+    #marcas img{
+    width: 300px;
+    }
+ 
+ 
+ 
