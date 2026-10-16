@@ -119,22 +119,12 @@ p {color: #8b8b8b;
       text-align: center;
   }
 
-#estadosunidos tr,#estadosunidos td,#estadosunidos th{
+#marcas tr,#marcas td,#marcas th{
     border: solid coral 3px;
     border: collapse;
     color: white;
     }
     
-    #estadosunidos img{
-    width: 200px;
+    #marcas img{
+    width: 300px;
     }
-
-    #contenedor{
-width: 57%;
-float: right;
-
-
-    }
-
-
-
