@@ -26,81 +26,42 @@
         <a href="nosotros.html" class="activo">Nosotros</a>
       </nav>
       <main>
-        <h2>Encuesta o datos</h2>
-        <p>Ingrese sus datos para seguir con la pàgina</p>
-        <section>
-          <div id="formulario">
-            <h2>Tus datos</h2>
-    
-            <form action="#">
-              <label for="fornombre">Nombre</label>
-              <input type="text" name="" id="fornombre" maxlength="30" required minlength="3"
-                placeholder="Ingrese su nombre">
-    
-              <label for="forapellido">Apellido</label>
-              <input type="text" name="" id="fornombre" maxlength="30" required minlength="3"
-                placeholder="Ingrese su apellido">
-    
-              <input id="formedad" required type="number" placeholder="Ingrese su edad">
-              <input id="formclave" required type="password" placeholder="Ingrese su clave">
-    
-    <input type="email" placeholder="alumno/a@colegio.gmail">
-    
-            
-    
-    
-    <input type="radio" id="formm" name="formsexo" value="masculino">
-    <label for="mas">Masculino</label>
-  
-  
-              <input type="radio" id="formn" name="formsexo" value="no decirlo">
-              <label for="no">Femenino</label><br><br>
-              <input type="radio" id="formn" name="formsexo" value="no decirlo">
-              <label for="no">No decirlo</label><br><br>
-  
-  
-              <label for="ubicacion">Seleccione de que club es hincha</label><br>
-              <select name="ubicacion" id="formubicacion">
-                <option value="plateaa">Boca Juniors</option>
-                <option value="plateab">River Plate</option>
-                <option value="plateac">Racing Club</option>
-                <option value="plateaa">Independiente</option>
-                <option value="plateab">San Lorenzo</option>
-                <option value="plateac">Velez Sarfield</option>
-                <option value="plateab">Estudiantes De La Plata</option>
-                <option value="plateac">Gimnasia Y Esgrima De La Plata</option>
-                <option value="plateab">Banfield</option>
-                <option value="plateac">Lanùs</option>
-                <option value="plateab">Platense</option>
-                <option value="plateac">Argentinos Juniors</option>
-                <option value="plateab">San Martìn De San Juan</option>
-                <option value="plateac">Atlètico Tùcuman</option>
-                <option value="plateaa">Riestra</option>
-                <option value="plateab">Talleres</option>
-                <option value="plateac">Defensa Y Justicia</option>
-                <option value="plateab">Gimnasia De Mendoza</option>
-                <option value="plateac">Instituto</option>
-                <option value="plateab">Belgrano</option>
-                <option value="plateac">Uniòn</option>
-                <option value="plateab">Aldosivi</option>
-                <option value="plateac">Barracas</option>
-                <option value="plateab">Estudiantes De Rìo Cuarto</option>
-                <option value="plateac">Independiente Rivadavia</option>
-                <option value="plateab">Huracàn</option>
-                <option value="plateac">Sarmiento De Junìn</option>
-                <option value="plateaa">Tigre</option>
-                <option value="plateab">Central Cordoba</option>
-                <option value="plateac">Newells</option>
-                <option value="plateaa">Rosario Central</option>
-               
-              </select>
-    
-    
-              <input type="submit">
-    
-            </form>
-          </div>
-        </section>
+        <h2>Encuesta o datos de las entradas</h2>
+    <p>Ingrese sus datos para realizar la reserva de la entrada</p>
+    <section>
+      <div id="formulario">
+        <h2>Tus datos</h2>
+        <form action="#">
+          <label for="formnombre">Nombre</label>
+          <input type="text" name="formnombre" id="formnombre" maxlength="30" minlength="3" required
+            placeholder="ingrese su nombre">
+          <label for="formapellido">Apellido</label>
+          <input type="text" name="formapellido" id="formapellido" maxlength="30" minlength="3" required
+            placeholder="ingrese su apellido">
+          <input id="formedad" required type="number" placeholder="Ingrese su edad">
+          <input id="formclave" required type="password" placeholder="Ingrese la palabra secreta">
+          <input id="formcorreo" type="email" placeholder="correopp@dom.com">
+          <input type="radio" id="formf" name="formsexo" value="Femenino">
+          <label for="fem">Femenino</label>
+          <input type="radio" id="formm" name="formsexo" value="Masculino">
+          <label for="mas">Masculino</label>
+          <input type="radio" id="formn" name="formsexo" value="Nodecirlo">
+          <label for="moinf">Prefiero no decirlo</label> <br> <br>
+          <label for="ubicacion">Seleccione una ubicación</label><br>
+          <select name="ubicacion" id="formubi">
+            <option value="plateaa">Platea Alta</option>
+            <option value="plateam">Platea Media</option>
+            <option value="plateab">Platea Baja</option>
+            <option value="popular">Popular</option>
+            <option value="palco">Palco</option>
+          </select>
+          <textarea name="areatexto" id="formtext" cols="30" rows="5"></textarea>
+
+
+          <input type="submit">
+        </form>
+      </div>
+    </section>
     
       </main>
   
