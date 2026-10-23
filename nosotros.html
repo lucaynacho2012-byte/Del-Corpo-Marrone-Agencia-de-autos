@@ -38,24 +38,25 @@
               <label for="formapellido">Apellido</label>
               <input type="text" name="formapellido" id="formapellido" maxlength="30" minlength="3" required
                 placeholder="ingrese su apellido">
-              <input id="formedad" required type="number" placeholder="Ingrese su edad">
-              <input id="formclave" required type="password" placeholder="Ingrese la palabra secreta">
+              <input id="formdni" required type="identificacion" placeholder="Ingrese su DNI">
               <input id="formcorreo" type="email" placeholder="correopp@dom.com">
-              <input type="radio" id="formf" name="formsexo" value="Femenino">
-              <label for="fem">Femenino</label>
-              <input type="radio" id="formm" name="formsexo" value="Masculino">
-              <label for="mas">Masculino</label>
-              <input type="radio" id="formn" name="formsexo" value="Nodecirlo">
-              <label for="moinf">Prefiero no decirlo</label> <br> <br>
-              <label for="ubicacion">Seleccione una ubicación</label><br>
-              <select name="ubicacion" id="formubi">
-                <option value="plateaa">Platea Alta</option>
-                <option value="plateam">Platea Media</option>
-                <option value="plateab">Platea Baja</option>
-                <option value="popular">Popular</option>
-                <option value="palco">Palco</option>
+              <label for="vehiculo">Seleccione el tipo de vehículo</label><br>
+              <select name="vehiculo" id="formvehiculo">
+                <option value="vehiculo">Auto</option>
+                <option value="vehiculos">Camioneta</option>
+
+                <label for="marca">Seleccione el tipo de marca</label><br>
+              <select name="marca" id="formmarca">
+                <option value="marcaa">Toyota</option>
+                <option value="marcab">Honda</option>
+                <option value="marcac">Volkswagen</option>
+                <option value="marcasd">Mercedes</option>
+                <option value="marcae">BMW</option>
+                <option value="marcasf">Audi</option>
+                <option value="marcasg">Peugeot</option>
+                
               </select>
-              <textarea name="areatexto" id="formtext" cols="30" rows="5"></textarea>
+              
     
     
               <input type="submit">
