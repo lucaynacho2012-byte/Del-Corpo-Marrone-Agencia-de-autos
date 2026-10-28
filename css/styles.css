@@ -125,7 +125,7 @@ p {color: #8b8b8b;
       text-align: center;
   }
 
-#estadosunidos tr,#estadosunidos td,#estadosunidos th{
+#cuadroautos tr,#cuadroautos td,#cuadroautos th{
     border: solid rgb(36, 33, 32) 3px;
     border: collapse;
     color: white;
