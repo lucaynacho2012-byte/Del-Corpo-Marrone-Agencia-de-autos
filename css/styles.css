@@ -37,6 +37,13 @@ nav {
   text-transform: uppercase;
 
  }
+
+
+table tr:hover{
+background-color: #8b8b8b;
+
+}
+
  nav a {
   display: inline-block;
   min-width: 9rem;
